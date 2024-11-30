@@ -51,7 +51,13 @@ window.addEventListener('keydown', (e) => {
         lines.push("");
     } else if (e.key === 'Backspace') {
         console.log(e.key);
+        if (lines[lines.length - 1] === "") {
+        console.log("removing line")
+        lines.splice(lines.length - 1,1);
+        } else {
+        console.log("removing characters")
         lines[lines.length - 1] = "";
+        }
     } else if (e.key !== 'Shift') {
         console.log(e.key);
         lines[lines.length - 1] = lines[lines.length - 1] + e.key;
