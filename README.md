@@ -30,3 +30,9 @@ Razem z Tobą nowy zacznę dziś łów
 
 ```
 Dzięki wstawieniu pustego wiersza na 8 i 16 linii zmusiliśmy program do wyświetlania tylko 7 linijek na stronę
+## Zdjęcia
+
+Interfejs wyświetlania tekstu:
+![Interfejs wyświetlania tekstu](https://github.com/user-attachments/assets/760948e8-9191-4a8c-bf41-041b103643cf)
+Przykład użycia:
+![Przykład użycia](https://github.com/user-attachments/assets/a72c946d-be02-46ef-ba93-de09fb8d0cad)
