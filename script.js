@@ -46,6 +46,15 @@ window.addEventListener('keydown', (e) => {
     } else if (e.key === 'Escape') {
         console.log(e.key);
         location.reload();
+    } else if (e.key === 'Enter') {
+        console.log(e.key);
+        lines.push("");
+    } else if (e.key === 'Backspace') {
+        console.log(e.key);
+        lines[lines.length - 1] = "";
+    } else if (e.key !== 'Shift') {
+        console.log(e.key);
+        lines[lines.length - 1] = lines[lines.length - 1] + e.key;
     }
     displayLines();
 });
