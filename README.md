@@ -7,7 +7,8 @@ Taka tam prosta aplikacja przeglądarkowa pozwalająca na wyświetlanie tekstu u
 #### 2. Wejdź na stronę [https://excel0511.github.io/ekran-tekstowy/](https://excel0511.github.io/ekran-tekstowy/) lub pobierz najnowszą wersję i hostuj stronę lokalnie
 #### 3. Użyj przycisku ![`Wybierz plik`](https://github.com/user-attachments/assets/4bf44565-f864-45e6-ac11-3391676a50a1) aby załadować plik tekstowy z urządzenia.
 ### Poruszanie się po interfejsie
-- Użyj klawiszy `ArrowUp`, `ArrowDown` aby przesuwać tekst o jeden wiersz do dołu lub do góry oraz klawiszy `ArrowRight`, `ArrowwLeft` aby przesuwać tekst stronami (8 wierszy). Użyj `Escape` aby zamknąć otwarty tekst (czasem trzeba chwilę przytrzymać).
+#### Metoda 1: Użyj klawiszy `ArrowUp`, `ArrowDown` aby przesuwać tekst o jeden wiersz do dołu lub do góry oraz klawiszy `ArrowRight`, `ArrowwLeft` aby przesuwać tekst stronami (8 wierszy). Użyj `Escape` aby zamknąć otwarty tekst (czasem trzeba chwilę przytrzymać).
+#### Metoda 2: W przypadku ekranów dotykowyck kliknięcie pod tekstem będzie miało ten sam efekt co strzałka w dół, kliknięcie po prawej stronie tekstu ten sam ekekt co strzałka w prawo itp.
 ### Pisanie własnych tekstów do wyświetlania
 - Zaleca się aby wiersze nie były zbyt długie
 - Dopuszczalne są małe, wielkie litery, cyfry, nawiasy, kropki, przecinki, cudzysłów, myślniki i podkreślniki.
