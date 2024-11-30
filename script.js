@@ -29,6 +29,7 @@ function displayLines() {
     }
 }
 
+// Wykrywanie naciśnięć klawiszy
 window.addEventListener('keydown', (e) => {
     if (e.key === 'ArrowUp') {
         console.log(e.key);
@@ -45,6 +46,28 @@ window.addEventListener('keydown', (e) => {
     } else if (e.key === 'Escape') {
         console.log(e.key);
         location.reload();
+    }
+    displayLines();
+});
+
+// Wykrywanie dotknięć ekranu
+document.addEventListener('click', function(event) {
+    const screenWidth = window.innerWidth;
+    const screenHeight = window.innerHeight;
+  
+    const clickX = event.clientX;
+    const clickY = event.clientY;
+    
+    console.log("Click: " + clickX + " " + clickY + " " + screenHeight + " " + screenWidth);
+  
+    if (clickY > screenHeight * 0.8) { // Dolna część ekranu
+        currentIndex = Math.min(lines.length - MAX_VISIBLE_LINES, currentIndex + 1);
+    } else if (clickY < screenHeight * 0.2) { // Górna część ekranu
+        currentIndex = Math.max(0, currentIndex - 1);
+    } else if (clickX < screenWidth * 0.2) { // Lewa część ekranu
+        currentIndex = Math.max(0, currentIndex - 8);
+    } else if (clickX > screenWidth * 0.8) { // Prawa część ekranu
+        currentIndex = Math.min(lines.length - MAX_VISIBLE_LINES, currentIndex + 8);
     }
     displayLines();
 });
