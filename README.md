@@ -9,6 +9,7 @@ Taka tam prosta aplikacja przeglądarkowa pozwalająca na wyświetlanie tekstu u
 ### Poruszanie się po interfejsie
 #### Metoda 1: Użyj klawiszy `ArrowUp`, `ArrowDown` aby przesuwać tekst o jeden wiersz do dołu lub do góry oraz klawiszy `ArrowRight`, `ArrowwLeft` aby przesuwać tekst stronami (8 wierszy). Użyj `Escape` aby zamknąć otwarty tekst (czasem trzeba chwilę przytrzymać).
 #### Metoda 2: W przypadku ekranów dotykowyck kliknięcie pod tekstem będzie miało ten sam efekt co strzałka w dół, kliknięcie po prawej stronie tekstu ten sam ekekt co strzałka w prawo itp.
+#### Dodatek: Możesz dopisywać tekst podczas wyświetlania go, należy przejść na koniec tekstu a następnie wprowadzać litery, cyfry i znaki specjalne, enter przenosi do następnego wierszu. Jeśli nie ma żadnych znaków w danej linii backspace usuwa ją, jeśli są znaki backspace usuwa je zostawiając pustą linię.
 ### Pisanie własnych tekstów do wyświetlania
 - Zaleca się aby wiersze nie były zbyt długie
 - Dopuszczalne są małe, wielkie litery, cyfry, nawiasy, kropki, przecinki, cudzysłów, myślniki i podkreślniki.
