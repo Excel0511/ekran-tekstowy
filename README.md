@@ -2,8 +2,11 @@
 ## Opis
 Taka tam prosta aplikacja przeglądarkowa pozwalająca na wyświetlanie tekstu utworów na ekranie np. projektora. Pozwala ładować własne pliki tekstowe a następnie przesuwać tekst.
 ## Użytkowanie
+### Uruchamianie
+#### 1. Przygotuj plik z tekstem lub pobierz jeden z gotowych przykładów w katalogu `teksty`
+#### 2. Wejdź na stronę [https://excel0511.github.io/ekran-tekstowy/](https://excel0511.github.io/ekran-tekstowy/) lub pobierz najnowszą wersję i hostuj stronę lokalnie
+#### 3. Użyj przycisku ![`Wybierz plik`](https://github.com/user-attachments/assets/4bf44565-f864-45e6-ac11-3391676a50a1) aby załadować plik tekstowy z urządzenia.
 ### Poruszanie się po interfejsie
-- Na pierwszym ekranie użyj przycisku ![Wybierz plik](https://github.com/user-attachments/assets/4bf44565-f864-45e6-ac11-3391676a50a1) aby załadować plik tekstowy z urządzenia.
 - Użyj klawiszy `ArrowUp`, `ArrowDown` aby przesuwać tekst o jeden wiersz do dołu lub do góry oraz klawiszy `ArrowRight`, `ArrowwLeft` aby przesuwać tekst stronami (8 wierszy). Użyj `Escape` aby zamknąć otwarty tekst (czasem trzeba chwilę przytrzymać).
 ### Pisanie własnych tekstów do wyświetlania
 - Zaleca się aby wiersze nie były zbyt długie
