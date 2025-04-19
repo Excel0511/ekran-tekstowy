@@ -58,6 +58,8 @@ window.addEventListener('keydown', (e) => {
         console.log("removing characters")
         lines[lines.length - 1] = "";
         }
+    } else if (e.key == 'F11') {
+        console.log("full screen toogle");
     } else if (e.key !== 'Shift') {
         console.log(e.key);
         lines[lines.length - 1] = lines[lines.length - 1] + e.key;
